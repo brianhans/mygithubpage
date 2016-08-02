@@ -1,0 +1,161 @@
+.container-fluid {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  overflow-x:hidden;
+}
+.navbar{
+  margin: 0 0 0 0;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  width: 100vw;
+  background-color: #DCDCDC;
+  border-color: #DCDCDC;
+  -webkit-transform: translateZ(0);
+}
+.navbar-brand:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar li:hover{
+  border-bottom: 3px solid #263238;
+  cursor: pointer;
+}
+
+#info {
+  display: table;
+  height: 100vh;
+  min-height: 300px;
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+#name {
+  display: inline-block;
+  font-size: 100px;
+}
+
+#name p {
+  margin-top: 0;
+}
+
+
+#portfolio {
+  height: auto;
+  width: 100%;
+  background: url(https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375) no-repeat center;
+  background-size: cover;
+  margin: 0 auto;
+  z-index: -1;
+  padding: 50px 0 50px 0;
+  background-position: 0% -1%;
+  position: static;
+}
+_:-moz-tree-row(hover), #portfolio{
+  background-attachment: fixed;
+}
+#contact {
+  background-color: #263238;
+  osition: relative;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.vertical-center {
+  width: 100%;
+  height: 100%;
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.card {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  height: 300px;
+  min-width: 25%;
+  max-width: 75%;
+  background-color: white;
+  float: none;
+  margin: 10px 20px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.card img{
+  height:100%;
+  width: auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.info-content {
+  background-color: #DCDCDC;
+}
+
+.card-item {
+  text-align: center;
+}
+
+.card img {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0;
+}
+
+#about {
+  position: relative;
+  min-height: 300px;
+  padding-top: 50px;
+  font-size: 16px;
+  width: 100%;
+  width: 100vw;
+  background-color: #eeeeee;
+}
+
+#about-content {
+  display: none;
+}
+
+#about-content p {
+  text-align: center;
+  padding: 10px 25%;
+
+}
+
+.blinking {
+  display: inline-block;
+  -webkit-animation: 1s blink infinite;
+  -moz-animation: 1s blink infinite;
+  -ms-animation: 1s blink infinite;
+  -o-animation: 1s blink infinite;
+  animation: .75s blink infinite;
+}
+
+.contact-button {
+  display: inline-block;
+  font-size: 15px;
+}
+
+a{
+  color: #333333;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
