@@ -2,174 +2,94 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Brian Hans Portfolio</title>
-
-
-
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="css/style.css">
-
-
+    <meta charset="utf-8">
+    <title>Brian Hans</title>
+    <script src="https://use.fontawesome.com/8cafe17b65.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src='main.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link rel='stylesheet' href='main.css' />
 </head>
 
 <body>
 
-    <body>
-        <div class="container-fluid">
+    <div class='screen main'>
+        <div class='half' style='float: right;'>
+            <h1 class='name'>Brian Hans</h1>
+            <div class='icons'>
+                <a class='clickable' href='https://github.com/brianhans/' target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a class='clickable' href='https://www.linkedin.com/in/brianhans1998' target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
 
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container-fluid">
-
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand">Brian Hans</a>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li id="portBtn"><a>Portfolio</a></li>
-                            <li id="aboutBtn"><a>About</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <section id="info" data-speed="8" data-type="background">
-                <div class="info-content jumbotron vertical-center text-center">
-                    <p id="name" class="content">
-                        <p class="blinking" style="font-size:100px;">_</p>
-                    </p>
-                    <p class="text-center" id="description" style="display:none">Programmer | Designer | Student</p>
-                </div>
-            </section>
-
-            <section id="portfolio" data-speed="6" data-type="background">
-                <div class="container">
-                    <h1 style="text-align:center; color:white; font-size: 60px;">Portfolio</h1>
-                    <article class="content">
-                        <div class="row" style="text-align:center">
-                            <a href="https://play.google.com/store/apps/details?id=com.brianhans.coralglades" target="_blank">
-                                <div class="row text-center">
-                                    <div class="card col-md-3">
-                                        <h3 class="text-center card-item">Coral Glades App</h3>                 <img class="img-fluid" src="http://s13.postimg.org/rmvugtimf/unnamed.png" width="100%">
-                                    </div>
-                            </a>
-
-                            <a href="http://codepen.io/wbrianw/full/ZWLVrN" target="_blank">
-                                <div class="card col-md-3">
-                                    <h3 class="text-center">Random Quotes</h3>               <img class="img-fluid" src="http://s8.postimg.org/dfxchul45/Capture.png" width="100%">
-                                </div>
-                            </a>
-
-                            <a href="http://codepen.io/wbrianw/full/mPRgop" target="_blank">
-                                <div class="card col-md-3">
-                                    <h3 class="text-center">Simple Weather</h3>               <img class="img-fluid" src="http://s28.postimg.org/fkqfqvkod/Capture.png" width="100%">
-                                </div>
-                            </a>
-                            </div>
-                        </div>
-
-                        <!-- Row 2 -->
-                        <div class="row" style="text-align:center">
-                            <a href="http://codepen.io/wbrianw/full/xVqqEv/" target="_blank">
-                                <div class="row text-center">
-                                    <div class="card col-md-3">
-                                        <h3 class="text-center card-item">Wikipedia Viewer</h3>
-                                        <img class="img-fluid" src="http://s15.postimg.org/ye7ve4v23/serve.png" width="100%">
-                                    </div>
-                            </a>
-
-                            <a href="http://codepen.io/wbrianw/full/remVyV/" target="_blank">
-                                <div class="card col-md-3">
-                                    <h3 class="text-center">Twitch Viewer</h3>
-                                    <img class="img-fluid" src="http://s11.postimg.org/6fqfr38gj/twitch.png" width="100%">
-                                </div>
-                            </a>
-                            <a href="http://bfy.tw/4pwL" target="_blank">
-                                <div class="card col-md-3">
-                                    <h3 class="text-center">Coming Soon</h3>
-                                    <img class="img-fluid" src="http://s27.postimg.org/w3knqh5r7/inprogress.png" style="margin-top: -35%;">
-                                </div>
-                            </a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </section>
-            <section id="about" class="text-center">
-                <div id="about-content">
-                    <h2>Who?</h2>
-                    <p>I am Brian. I am a highschool student currently trying to learn computer science. So far I have taken Harvard's CS50 online at edX and AP Computer Science. I am currently studying at the Make School Summer Academy. I'm experienced
-                        at coding in Java, C#, C, Swift, and Javascript. </p>
-                    <p></p>
-                    <button id="button" class="btn btn-primary btn-lg" style="margin-bottom:10px;">Contact Me</button>
-
-                    <div id="contact-me" style="display:none; background-color: #DDDDDD; padding-top: 15px; margin-top: 10px" class="text-center">
-                        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label for="name">Name:</label>
-                                    <input id="inputName" class="input" name="name" type="text" value="" size="10" style="height: 50px; width: 45%; margin-bottom:15px" />
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="email">Email:</label>
-                                    <input id="email" class="input" name="email" type="text" value="" size="50" style="height: 50px; width: 45%; margin-bottom:15px" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <label for="message">Message:</label>
-                                    </br>
-                                    <textarea id="message" class="input" name="message" rows="7" style="width: 90%; margin: 0 10px;"></textarea>
-                                    <br />
-                                </div>
-                            </div>
-                            <input class="btn btn-lg btn-primary" id="submit_button" type="submit" value="Send email" style="margin: 10px 0;" />
-                        </form>
-                    </div>
-                </div>
-            </section>
-            <section id="contact" data-speed="4" data-type="background">
-                <div class="container">
-
-                    <div id="github" class="contact-button">
-                        <a href="https://github.com/wbrianw" target="_blank"><span class="fa-stack fa-3x">
-          <i class="fa fa-circle fa-stack-2x" style="color:white"></i>
-          <i class="fa fa-github fa-stack-1x"></i>
-          </span></a>
-                    </div>
-
-                    <div id="linkedin" class="contact-button">
-                        <a href="https://www.linkedin.com/in/brian-h-025983116?trk=nav_responsive_tab_profile" target="_blank"><span class="fa-stack fa-3x">
-          <i class="fa fa-circle fa-stack-2x" style="color:white"></i>
-          <i class="fa fa-linkedin fa-stack-1x"></i>
-        </span></a>
-                    </div>
-
-                    <div id="google" class="contact-button">
-                        <a href="https://plus.google.com/u/0/113117480618254405160" target="_blank"><span class="fa-stack fa-3x">
-          <i class="fa fa-circle fa-stack-2x contact-btn" style="color:white"></i>
-          <i class="fa fa-google fa-stack-1x"></i>
-          </span></a>
-                    </div>
-                    <p style="color:white; vertical-align: bottom;">© Brian Hans 2016</p>
-                </div>
-            </section>
+            <a href="#about"><i class="fa fa-angle-down arrow fa-5x" aria-hidden="true"></i></a>
         </div>
-    </body>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 
-    <script src="js/index.js"></script>
+        <div class='main-footer'>
+            <a href='#about'><h3 class='clickable'>about</h3></a>
+            <a href="#projects"><h3 class='clickable'>projects</h3></a>
+            <a href='mailto:wbrianw8@gmail.com'><h3 class='clickable'>contact</h3></a>
+        </div>
+    </div>
+
+    <div class='screen partial' id='about'>
+        <div class='right_thin_row thin_row'>
+            <h2>Who am I?</h2>
+            <p>I am Brian. I am a highschool student currently learning computer science. So far I have taken Harvard's CS50 online at edX and AP Computer Science. I am currently studying at the Make School Summer Academy. I'm experienced at coding in Java,
+                C#, C, Swift, and Javascript.</p>
+        </div>
+        <div class='left_thin_row thin_row'>
+            <div class='thin_row_content'>
+                <h2>Experience</h2>
+                <p>Mobile (iOS & Android)</p>
+                <p>Backend (Python & Node)</p>
+                <p>Web</p>
+            </div>
+            <div class='row_image'>
+            </div>
+        </div>
+    </div>
 
 
 
+    <div class='screen app first_app' style='background-color: #FFAA1A;'>
+        <div id='projects'></div>
+        <div class='half app_right' style='float: left'>
+            <h2 class='wrap'>do o</h2>
+            <h3>Your music in sync</h3>
+            <p>do o shares your current music session with all of your friends, no matter where they are located. With one tap every pause, skip, seek, and track change are automatically synced up across all devices. </p>
+        </div>
+        <div class='half app_right' style='float: right'>
+            <img src='http://i.imgur.com/7X55dXZ.png' class='phone'>
+        </div>
+        <a href='https://itunes.apple.com/us/app/doo-music/id1140214273?mt=8' target="_blank"><img src='http://i.imgur.com/t9W52cl.png' class='leftLogo' /></a>
+    </div>
+    <div class='screen app' style='background-color: #CD1622;'>
+        <div class='half app_right' style='float: right'>
+            <h2 class='wrap'>Aux</h2>
+            <h3>Music + People</h3>
+            <p>Aux is the most natural way to discover music. Seamless access to your friends’ music selection. Facebook integration to instantly find friends.</p>
+        </div>
+        <div class='half app_right' style='float: left'>
+            <img src='http://i.imgur.com/JTzj2uy.png' class='phone' />
+        </div>
+        <a href='https://itunes.apple.com/us/app/aux-parties/id1146192317?mt=8' target="_blank"><img src='http://i.imgur.com/t9W52cl.png' class='rightLogo' /></a>
+    </div>
+    <div class='screen app' style='background-color: #13ABA5;'>
+        <div class='half app_right' style='float: left'>
+            <h2 class='wrap'>Coral Glades</h2>
+            <h3>High School reimagined</h3>
+            <p>Stay connected with Glades like never before. Follow teachers, clubs, and sports in one place. The one stop for all of Glades.</p>
+        </div>
+        <div class='half app_right' style='float: right'>
+            <img src='http://i.imgur.com/sDHOhOy.png' class='phone'>
+        </div>
+        <a href='https://play.google.com/store/apps/details?id=com.brianhans.coralglades&hl=en' target="_blank"><img src='http://i.imgur.com/0HXrjRQ.png' class='leftLogo' /></a>
+    </div>
+    </div>
+
+    <div class='footer'>
+        <p>© Brian Hans 2016</p>
+    </div>
 
 </body>
 
