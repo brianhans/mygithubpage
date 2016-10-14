@@ -65,7 +65,7 @@ h1 {
     background-color: #3C5162;
     position: absolute;
     bottom: 0;
-    height: 20vh;
+    height: 10vh;
     width: 50vw;
     padding-right: 5%;
     padding-left: 5%;
@@ -138,6 +138,7 @@ h1 {
 }
 
 .app {
+    box-sizing: border-box;
     padding: 5%;
     color: white;
     font-size: 1.5em;
