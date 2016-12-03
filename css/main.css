@@ -288,6 +288,9 @@ h2 {
         width: 50%;
         height: auto;
     }
+    .app {
+        padding: 50px 50px 10px 50px;
+    }
     .app_right {
         justify-content: flex-start;
     }
@@ -315,5 +318,8 @@ h2 {
     }
     .rightLogo {
         height: 40px;
+    }
+    #projects {
+        top: 0;
     }
 }
